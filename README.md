@@ -12,11 +12,10 @@ AltServer for AltStore, but on-device
     cd corecrypto; sed -i "/mach_time.h/d" corecrypto_test/include/ccshadow_decls.h
     mkdir b; cd b; CC=clang CXX=clang++ cmake ..; make; sudo make install; cd ../..
     ```
-
-- Install cpprestsdk static lib
-
-- Install boost static lib
-
+- need to install this
+  ```
+  sudo apt install libcpprest-dev xxd uuid-dev libzip-dev usbmuxd libimobiledevice6 libimobiledevice-utils 
+  ```
 - Build Configuration 1 (AltServer): Simple AltServer running on normal Linux host, working through usbmuxd
   ```
   make NO_USBMUXD_STUB=1 NO_UPNP_STUB=1
