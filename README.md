@@ -3,7 +3,7 @@ AltServer for AltStore, but on-device
 
 ## Build Instruction
 
-- Preparation: `git clone --recursive https://github.com/NyaMisty/AltServer-Linux`
+- Preparation: `git clone --recursive https://github.com/D-06/AltServer-Linux`
 
 - Install corecrypto_static
   - https://developer.apple.com/security/
